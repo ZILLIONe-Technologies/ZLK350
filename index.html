@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Device Inventory</title>
+    <link rel="stylesheet" href="my-web-project/src/styles/style.css">
+    <script>
+        function checkLogin() {
+            if (localStorage.getItem('loggedIn') !== 'true') {
+                window.location.href = 'login.html';
+            }
+        }
+        window.onload = checkLogin;
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">
+            <img src="my-web-project/src/images/zillione_logo.png" alt="Logo" class="logo">
+           ZLK350
+        </h1>
+    </div>
+    <img src="my-web-project/src/images/Lap_image.png" alt="Another Image" class="additional-image">
+    <p class="description"><h2>HP EliteBook 840 G7</h2></p>
+    <p><h3>Service Tag: 5CG1232JSF</h3></p>
+    <p>Model Number : HP EliteBook 840 G7</p>
+    <p>Serial Number : 5CG1232JSF</p>
+    <p>Current User : Chamara Amarasinghe</p>
+    <p>CPU Configuration : i5 10310U</p>
+    <p>MAC Address : 94-E2-3C-21-71-22</p>
+    <p>Manufature Date : No data Found</p>
+    <p>Purchased Date: No data Found</p>
+    <p>RAM Details : 16GB 2400MHz</p>
+    <p>Storage : 512GB NVMe</p>
+    <p>Display Size : 14 inch</p>
+    <p>Vendor : Fusion Tech</p>
+    <p class="blink">Warrenty Status :  END </p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <script src="my-web-project/src/scripts/app.js"></script>
+    <p>&copy; 2025 ZILLIONe Technologies. All rights reserved.</p>
+</body>
+</html>
